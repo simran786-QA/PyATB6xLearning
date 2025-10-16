@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad36151b-077b-475b-a639-347bac9c6d48" name="Changes" comment="Merge remote-tracking branch 'origin/main'" />
+    <list default="true" id="ad36151b-077b-475b-a639-347bac9c6d48" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <changelist_data name="simran786-QA" email="smrntester@gmail.com" automatic="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_05_condition_Loops/lab043_if_condition.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_05_condition_Loops/lab043_if_condition_optimixed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_05_condition_Loops/lab44_elseif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_05_condition_Loops/lab44_nested_elseif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_05_condition_Loops/lab46_if_else_elif.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_05_condition_Loops/labo45_if_else_condition.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +43,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;simran786-QA&quot;
-  }
+  &quot;lastFilter&quot;: {}
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
@@ -66,7 +72,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Merging main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/PyATB6xLearing&quot;,
@@ -241,7 +247,9 @@
       <workItem from="1760185012658" duration="1100000" />
       <workItem from="1760378213013" duration="2100000" />
       <workItem from="1760466004377" duration="467000" />
-      <workItem from="1760552258851" duration="308000" />
+      <workItem from="1760552258851" duration="473000" />
+      <workItem from="1760552754656" duration="17000" />
+      <workItem from="1760578314346" duration="2511000" />
     </task>
     <task id="LOCAL-00001" summary="all set with connecting hello hi">
       <option name="closed" value="true" />
@@ -291,7 +299,31 @@
       <option name="project" value="LOCAL" />
       <updated>1760380325445</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="comments  &amp; literals">
+      <option name="closed" value="true" />
+      <created>1760552574773</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1760552574773</updated>
+    </task>
+    <task id="LOCAL-00008" summary="comments  &amp; literals">
+      <option name="closed" value="true" />
+      <created>1760552590046</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760552590046</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1760552622964</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1760552622964</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +336,8 @@
     <MESSAGE value="cleanup" />
     <MESSAGE value="Added bilingual explanations for Python basics and variables" />
     <MESSAGE value="added files" />
+    <MESSAGE value="comments  &amp; literals" />
+    <MESSAGE value="Merge branch 'main' of https://github.com/simran786-QA/PyATB6xLearning&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit." />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
   </component>
