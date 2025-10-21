@@ -1,6 +1,9 @@
-a, b, c = 45, 5.4, "pramod"
-print(a)
-print(b)
-print(c)
+print()
+print("Hello", "World", sep="-", end="! ")
+print("Python", "Rocks\n")
 
-print(a, b, c,sep=" | ")
+data = (101, "Simran", "QA Engineer\n")
+id, name, role = data
+print(id, name, role)
+day, month, year = 9, 10, 2025
+print(day, month, year, sep="-")
