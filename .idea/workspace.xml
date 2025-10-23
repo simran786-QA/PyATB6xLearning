@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad36151b-077b-475b-a639-347bac9c6d48" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
-      <changelist_data name="simran786-QA" email="smrntester@gmail.com" automatic="false" />
-      <change afterPath="$PROJECT_DIR$/src/task/task002.py" afterDir="false" />
+    <list default="true" id="ad36151b-077b-475b-a639-347bac9c6d48" name="Changes" comment="shorthand operators">
+      <change afterPath="$PROJECT_DIR$/src/task/task003-all escape character.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/task/task003-math.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/task/task002shorthand operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task002-shorthand operators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,112 +58,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.001.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab004_Keyword..executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab008_Dynamically_typed.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab009_Identifier_Rule.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab010_maths.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab011_IQ_BODMAS.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab012_Multiple_Variables.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab012_Multiple_print.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Lab014_Math_Functions.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lab001_python_hello (1).executor&quot;: &quot;Run&quot;,
-    &quot;Python.lab001_python_hello.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/PyATB6xLearing&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.001.executor": "Run",
+    "Python.Lab004_Keyword..executor": "Run",
+    "Python.Lab008_Dynamically_typed.executor": "Run",
+    "Python.Lab009_Identifier_Rule.executor": "Run",
+    "Python.Lab010_maths.executor": "Run",
+    "Python.Lab011_IQ_BODMAS.executor": "Run",
+    "Python.Lab012_Multiple_Variables.executor": "Run",
+    "Python.Lab012_Multiple_print.executor": "Run",
+    "Python.Lab014_Math_Functions.executor": "Run",
+    "Python.lab001_python_hello (1).executor": "Run",
+    "Python.lab001_python_hello.executor": "Run",
+    "Python.task002.executor": "Run",
+    "Python.task003-all escape character.executor": "Run",
+    "Python.task003-math.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "E:/PyATB6xLearing",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\PyATB6xLearing\src" />
       <recent name="E:\PyATB6xLearing\ex_01_Python_Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task002">
-    <configuration name="001-print" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PTA-project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/task" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\PyATB6xLearing\src\task\001-print.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Lab012_Multiple_Variables" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PTA-project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables/Lab012_Multiple_Variables.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Lab012_Multiple_print" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PTA-project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables/Lab012_Multiple_print.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.task003-all escape character">
     <configuration name="Lab014_Math_Functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PTA-project" />
       <option name="ENV_FILES" value="" />
@@ -209,7 +144,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="task002" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="task001-print" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PTA-project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -223,7 +158,76 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/task/task002.py" />
+      <option name="SCRIPT_NAME" value="E:\PyATB6xLearing\src\task\task001-print.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task002-shorthand operators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PTA-project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="E:\PyATB6xLearing\src\task\task002-shorthand operators.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task003-all escape character" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PTA-project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/task/task003-all escape character.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task003-math" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PTA-project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/task" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/task/task003-math.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.task002" />
-        <item itemvalue="Python.001-print" />
+        <item itemvalue="Python.task003-all escape character" />
+        <item itemvalue="Python.task003-math" />
+        <item itemvalue="Python.task002-shorthand operators" />
+        <item itemvalue="Python.task001-print" />
         <item itemvalue="Python.Lab014_Math_Functions" />
-        <item itemvalue="Python.Lab012_Multiple_Variables" />
-        <item itemvalue="Python.Lab012_Multiple_print" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +281,8 @@
       <workItem from="1760983802798" duration="7000" />
       <workItem from="1761043792754" duration="860000" />
       <workItem from="1761049447696" duration="973000" />
-      <workItem from="1761132918112" duration="277000" />
+      <workItem from="1761132918112" duration="559000" />
+      <workItem from="1761242905733" duration="1119000" />
     </task>
     <task id="LOCAL-00001" summary="all set with connecting hello hi">
       <option name="closed" value="true" />
@@ -351,7 +356,23 @@
       <option name="project" value="LOCAL" />
       <updated>1760552622964</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="shorthand operators">
+      <option name="closed" value="true" />
+      <created>1761133236579</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761133236579</updated>
+    </task>
+    <task id="LOCAL-00011" summary="shorthand operators">
+      <option name="closed" value="true" />
+      <created>1761133246204</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761133246204</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,7 +388,9 @@
     <MESSAGE value="comments  &amp; literals" />
     <MESSAGE value="Merge branch 'main' of https://github.com/simran786-QA/PyATB6xLearning&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit." />
     <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
+    <MESSAGE value="print statments" />
+    <MESSAGE value="shorthand operators" />
+    <option name="LAST_COMMIT_MESSAGE" value="shorthand operators" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -380,16 +403,19 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PyATB6xLearing$task003_all_escape_character.coverage" NAME="task003-all escape character Coverage Results" MODIFIED="1761244028582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/task" />
     <SUITE FILE_PATH="coverage/PyATB6xLearing$lab001_python_hello.coverage" NAME="lab001_python_hello Coverage Results" MODIFIED="1759805992968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ex_01_Python_Basic" />
     <SUITE FILE_PATH="coverage/PyATB6xLearing$Lab012_Multiple_Variables.coverage" NAME="Lab012_Multiple_Variables Coverage Results" MODIFIED="1760899267124" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
     <SUITE FILE_PATH="coverage/PyATB6xLearing$Lab014_Math_Functions.coverage" NAME="Lab014_Math_Functions Coverage Results" MODIFIED="1760899441677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
-    <SUITE FILE_PATH="coverage/PyATB6xLearing$Lab012_Multiple_print.coverage" NAME="Lab012_Multiple_print Coverage Results" MODIFIED="1760898847530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
-    <SUITE FILE_PATH="coverage/PyATB6xLearing$001.coverage" NAME="001 Coverage Results" MODIFIED="1761049798479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/task" />
     <SUITE FILE_PATH="coverage/PyATB6xLearing$Lab004_Keyword_.coverage" NAME="Lab004_Keyword. Coverage Results" MODIFIED="1760379771823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
-    <SUITE FILE_PATH="coverage/PyATB6xLearing$Lab010_maths.coverage" NAME="Lab010_maths Coverage Results" MODIFIED="1760897921281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
     <SUITE FILE_PATH="coverage/PyATB6xLearing$Lab011_IQ_BODMAS.coverage" NAME="Lab011_IQ_BODMAS Coverage Results" MODIFIED="1760898516060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
     <SUITE FILE_PATH="coverage/PyATB6xLearing$Lab008_Dynamically_typed.coverage" NAME="Lab008_Dynamically_typed Coverage Results" MODIFIED="1760897772170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
-    <SUITE FILE_PATH="coverage/PyATB6xLearing$Lab009_Identifier_Rule.coverage" NAME="Lab009_Identifier_Rule Coverage Results" MODIFIED="1760897785108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
+    <SUITE FILE_PATH="coverage/PyATB6xLearing$task003_math.coverage" NAME="task003-math Coverage Results" MODIFIED="1761243732109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/task" />
     <SUITE FILE_PATH="coverage/PyATB6xLearing$lab001_python_hello__1_.coverage" NAME="lab001_python_hello (1) Coverage Results" MODIFIED="1760034332654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_01_Python_Basic" />
+    <SUITE FILE_PATH="coverage/PyATB6xLearing$Lab012_Multiple_print.coverage" NAME="Lab012_Multiple_print Coverage Results" MODIFIED="1760898847530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
+    <SUITE FILE_PATH="coverage/PyATB6xLearing$001.coverage" NAME="001 Coverage Results" MODIFIED="1761049798479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/task" />
+    <SUITE FILE_PATH="coverage/PyATB6xLearing$Lab010_maths.coverage" NAME="Lab010_maths Coverage Results" MODIFIED="1760897921281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
+    <SUITE FILE_PATH="coverage/PyATB6xLearing$Lab009_Identifier_Rule.coverage" NAME="Lab009_Identifier_Rule Coverage Results" MODIFIED="1760897785108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
+    <SUITE FILE_PATH="coverage/PyATB6xLearing$task002.coverage" NAME="task002 Coverage Results" MODIFIED="1761133199865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/task" />
   </component>
 </project>
