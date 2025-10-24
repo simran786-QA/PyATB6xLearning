@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad36151b-077b-475b-a639-347bac9c6d48" name="Changes" comment="shorthand operators">
-      <change afterPath="$PROJECT_DIR$/src/task/task003-all escape character.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task/task003-math.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_05_condition_Loops/Lab047_Grade_Calc.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task/task002shorthand operators.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/task/task002-shorthand operators.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,39 +56,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.001.executor": "Run",
-    "Python.Lab004_Keyword..executor": "Run",
-    "Python.Lab008_Dynamically_typed.executor": "Run",
-    "Python.Lab009_Identifier_Rule.executor": "Run",
-    "Python.Lab010_maths.executor": "Run",
-    "Python.Lab011_IQ_BODMAS.executor": "Run",
-    "Python.Lab012_Multiple_Variables.executor": "Run",
-    "Python.Lab012_Multiple_print.executor": "Run",
-    "Python.Lab014_Math_Functions.executor": "Run",
-    "Python.lab001_python_hello (1).executor": "Run",
-    "Python.lab001_python_hello.executor": "Run",
-    "Python.task002.executor": "Run",
-    "Python.task003-all escape character.executor": "Run",
-    "Python.task003-math.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "E:/PyATB6xLearing",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab004_Keyword..executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab008_Dynamically_typed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab009_Identifier_Rule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab010_maths.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab011_IQ_BODMAS.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab012_Multiple_Variables.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab012_Multiple_print.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab014_Math_Functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab001_python_hello (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab001_python_hello.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task003-all escape character.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task003-math.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/PyATB6xLearing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\PyATB6xLearing\src" />
@@ -282,7 +280,8 @@
       <workItem from="1761043792754" duration="860000" />
       <workItem from="1761049447696" duration="973000" />
       <workItem from="1761132918112" duration="559000" />
-      <workItem from="1761242905733" duration="1119000" />
+      <workItem from="1761242905733" duration="1864000" />
+      <workItem from="1761330326436" duration="232000" />
     </task>
     <task id="LOCAL-00001" summary="all set with connecting hello hi">
       <option name="closed" value="true" />
