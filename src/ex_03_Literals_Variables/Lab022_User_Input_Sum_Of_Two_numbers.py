@@ -22,13 +22,13 @@ num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
 # using operators
- addition = num1 + num2
- subtraction = num1 - num2
- division = num1 / num2
- multiplication = num1 * num2
+addition = num1 + num2
+subtraction = num1 - num2
+division = num1 / num2
+multiplication = num1 * num2
 
 # printing each statement
- print("Addition: ", addition)
- print("Subtraction: ", subtraction)
- print("Division: ", division)
- print("Multiplication: ", multiplication)
+print("Addition: ", addition)
+print("Subtraction: ", subtraction)
+print(f"Division, {division:.2f}")
+print(f"Multiplication, {multiplication}")
