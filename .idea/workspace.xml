@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad36151b-077b-475b-a639-347bac9c6d48" name="Changes" comment="shorthand operators">
-      <change afterPath="$PROJECT_DIR$/src/ex_05_condition_Loops/Lab047_Grade_Calc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ex_03_Literals_Variables/Lab022_User_Input_Sum_Of_Two_numbers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +68,7 @@
     &quot;Python.Lab012_Multiple_Variables.executor&quot;: &quot;Run&quot;,
     &quot;Python.Lab012_Multiple_print.executor&quot;: &quot;Run&quot;,
     &quot;Python.Lab014_Math_Functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for-Loop.executor&quot;: &quot;Run&quot;,
     &quot;Python.lab001_python_hello (1).executor&quot;: &quot;Run&quot;,
     &quot;Python.lab001_python_hello.executor&quot;: &quot;Run&quot;,
     &quot;Python.task002.executor&quot;: &quot;Run&quot;,
@@ -95,8 +96,8 @@
       <recent name="E:\PyATB6xLearing\ex_01_Python_Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.task003-all escape character">
-    <configuration name="Lab014_Math_Functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.for-Loop">
+    <configuration name="for-Loop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PTA-project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,12 +106,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ex_07_loop" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables/Lab014_Math_Functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ex_07_loop/for-Loop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -236,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.for-Loop" />
         <item itemvalue="Python.task003-all escape character" />
         <item itemvalue="Python.task003-math" />
         <item itemvalue="Python.task002-shorthand operators" />
         <item itemvalue="Python.task001-print" />
-        <item itemvalue="Python.Lab014_Math_Functions" />
       </list>
     </recent_temporary>
   </component>
@@ -281,7 +282,9 @@
       <workItem from="1761049447696" duration="973000" />
       <workItem from="1761132918112" duration="559000" />
       <workItem from="1761242905733" duration="1864000" />
-      <workItem from="1761330326436" duration="232000" />
+      <workItem from="1761330326436" duration="1582000" />
+      <workItem from="1761567824042" duration="283000" />
+      <workItem from="1761761083635" duration="1404000" />
     </task>
     <task id="LOCAL-00001" summary="all set with connecting hello hi">
       <option name="closed" value="true" />
@@ -412,6 +415,7 @@
     <SUITE FILE_PATH="coverage/PyATB6xLearing$task003_math.coverage" NAME="task003-math Coverage Results" MODIFIED="1761243732109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/task" />
     <SUITE FILE_PATH="coverage/PyATB6xLearing$lab001_python_hello__1_.coverage" NAME="lab001_python_hello (1) Coverage Results" MODIFIED="1760034332654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_01_Python_Basic" />
     <SUITE FILE_PATH="coverage/PyATB6xLearing$Lab012_Multiple_print.coverage" NAME="Lab012_Multiple_print Coverage Results" MODIFIED="1760898847530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
+    <SUITE FILE_PATH="coverage/PyATB6xLearing$for_Loop.coverage" NAME="for-Loop Coverage Results" MODIFIED="1761568025434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_07_loop" />
     <SUITE FILE_PATH="coverage/PyATB6xLearing$001.coverage" NAME="001 Coverage Results" MODIFIED="1761049798479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/task" />
     <SUITE FILE_PATH="coverage/PyATB6xLearing$Lab010_maths.coverage" NAME="Lab010_maths Coverage Results" MODIFIED="1760897921281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
     <SUITE FILE_PATH="coverage/PyATB6xLearing$Lab009_Identifier_Rule.coverage" NAME="Lab009_Identifier_Rule Coverage Results" MODIFIED="1760897785108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/ex_02_Keywords_Identifier_Variables" />
