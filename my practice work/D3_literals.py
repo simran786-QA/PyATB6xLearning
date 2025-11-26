@@ -1,20 +1,39 @@
+# Numeric Literals
+a = 10
+b = 3.14
+c = 2 + 3j
 
-a=10
-b=30
-c=70 # number literals
+# String Literal
+name = "Simran"
 
-variable_name = literals # literals cannot be changed , automatically untill manually done
-d=2.9 # float literal
-e= "simran" # string literal
-f= 2+d #complex literal
-g = true #boolean literal
- print(a,b,c,d,e,f,g)
+# Boolean Literals
+is_active = True
 
-list_lit = [1, 2, 3]          # List literal
-tuple_lit = (4, 5, 6)         # Tuple literal
-dict_lit = {"name": "Simran"} # Dictionary literal
-set_lit = {10, 20, 30}        # Set literal
+# None Literal
+data = None
 
-print(list_lit, tuple_lit, dict_lit, set_lit)
+# Collection Literals
+numbers = [1, 2, 3]
+info = {"city": "Mumbai"}
 
+print(a, b, c)
+print(name)
+print(is_active)
+print(data)
+print(numbers)
+print(info)
+
+
+#litral used in automation
+BASE_URL = "https://api.server.com"     # string literal
+TIMEOUT = 30                            # numeric literal
+IS_DEBUG = False                        # boolean literal
+
+headers = {"Content-Type": "application/json"}   # dict literal
+
+
+#API या DB से NULL आए तो Python उसे handle करता है:
+response_value = None
+if response_value is None:
+     print("no data returned")
 
