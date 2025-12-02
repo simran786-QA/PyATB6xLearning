@@ -56,8 +56,3 @@ tc.stop()
 # 4. Abstraction hides details & provides clean architecture.
 # -------------------------------------------------------------
 
-# -------------------------------------------------------------
-# Commit Message
-# Implemented BrowserManager abstraction with ChromeBrowser
-# using ABC and abstractmethod for clean framework structure.
-# -------------------------------------------------------------
