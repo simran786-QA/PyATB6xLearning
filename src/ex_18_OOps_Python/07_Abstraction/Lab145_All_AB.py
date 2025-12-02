@@ -1,34 +1,50 @@
-# Abstraction
-# Hide the details and show what is required.
+# -------------------------------------------------------------
+# Author: Simran Shaikh
+# Topic: Abstraction using ABC (Abstract Base Class)
+# -------------------------------------------------------------
 
-# Car - with key _ __private, tyres -> public,
-
-# Car -> multiple - Engine, GearBox
-# Car -> driver -> Engine, gearbox?
-#===============================================
-
-# Abstraction Example in Python
-
-# 👉 Abstraction hides complex internal logic and exposes only essential features.
-# 👉 Achieved using Abstract Base Classes (ABC) and @abstractmethod.
-
+# Step 1: Import Required Module
 from abc import ABC, abstractmethod
 
-class Animal(ABC):
+# -------------------------------------------------------------
+# Step 2: Create an Abstract Class
+class Father(ABC):
     def __init__(self, name):
         self.name = name
 
     @abstractmethod
-    def sound(self):
-        """Each animal must define its own sound."""
+    def loan(self):
         pass
+    # Hindi:
+    # loan() ek abstract method hai. Iski koi body nahi hoti.
+    # Har child class ko ise implement karna zaroori hai.
+    #
+    # English:
+    # loan() is an abstract method. It has no body.
+    # Every subclass MUST implement this method.
 
+# -------------------------------------------------------------
+# Step 3: Create a Child Class That Implements the Abstract Method
+class Amit(Father):
 
-class Dog(Animal):
-    def sound(self):
-        print("Bark")
+    def loan(self):
+        print("Giving the 50K loan")
+    # Hindi:
+    # Abstract method yahan override kiya gaya hai.
+    #
+    # English:
+    # Abstract method is overridden here.
 
+# -------------------------------------------------------------
+# Step 4: Create Object and Call Implemented Method
+amit = Amit("AMIT SHARMA")
+amit.loan()
 
-# Object creation
-dog = Dog("PP")
-dog.sound()
+# -------------------------------------------------------------
+# Step 5: Summary
+# 1. Abstract class = Blueprint, cannot be instantiated.
+# 2. Abstract method = Must be implemented by child class.
+# 3. @abstractmethod enforces structure.
+# 4. Father class contains rule.
+# 5. Amit class provides real implementation.
+# -------------------------------------------------------------
