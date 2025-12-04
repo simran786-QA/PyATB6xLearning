@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad36151b-077b-475b-a639-347bac9c6d48" name="Changes" comment="sum of user_input">
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab031_Arth_Op.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex_04_Operators/Lab031_Arth_Operators.py" afterDir="false" />
+    <list default="true" id="ad36151b-077b-475b-a639-347bac9c6d48" name="Changes" comment="Added MathOperation example demonstrating instance vs static methods with full explanation and structured format.">
+      <change afterPath="$PROJECT_DIR$/src/ex_18_OOps_Python/08_Static/Lab154_REAL_EXAMPLE.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,57 +56,121 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.001.executor": "Run",
-    "Python.Lab004_Keyword..executor": "Run",
-    "Python.Lab008_Dynamically_typed.executor": "Run",
-    "Python.Lab009_Identifier_Rule.executor": "Run",
-    "Python.Lab010_maths.executor": "Run",
-    "Python.Lab011_IQ_BODMAS.executor": "Run",
-    "Python.Lab012_Multiple_Variables.executor": "Run",
-    "Python.Lab012_Multiple_print.executor": "Run",
-    "Python.Lab014_Math_Functions.executor": "Run",
-    "Python.Lab022_User_Input_Sum_Of_Two_numbers.executor": "Run",
-    "Python.Lab024_Strings_and_Their_Functions.executor": "Run",
-    "Python.Lab025_String.executor": "Run",
-    "Python.Lab026_Literals.executor": "Run",
-    "Python.Lab027_Escape_Sequences.executor": "Run",
-    "Python.Lab028_String_Types_and_Raw_Strings.executor": "Run",
-    "Python.Lab029_Task1.executor": "Run",
-    "Python.Lab030_Task2Quotient and Remainder Calculator.executor": "Run",
-    "Python.Lab031_Arth_Op.executor": "Run",
-    "Python.for-Loop.executor": "Run",
-    "Python.lab001_python_hello (1).executor": "Run",
-    "Python.lab001_python_hello.executor": "Run",
-    "Python.task002.executor": "Run",
-    "Python.task003-all escape character.executor": "Run",
-    "Python.task003-math.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "E:/PyATB6xLearing",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for src.ex_10_Decortors.Lab082_Real_Decor.test_ui_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.001.executor&quot;: &quot;Run&quot;,
+    &quot;Python.D1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.D3_literals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab004_Keyword..executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab008_Dynamically_typed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab009_Identifier_Rule.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab010_maths.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab011_IQ_BODMAS.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab012_Multiple_Variables.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab012_Multiple_print.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab014_Math_Functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab022_User_Input_Sum_Of_Two_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab024_Strings_and_Their_Functions.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab025_String.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab026_Literals.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab027_Escape_Sequences.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab028_String_Types_and_Raw_Strings.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab029_Task1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab030_Task2Quotient and Remainder Calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab031_Arth_Op.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab031_Arth_Operators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab031_UnaryOperator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab032_Comparision_Op.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab033_Logic_Operator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab034_Operators_P2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab035_Operators_P4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab036_Operators_Comparsion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab037_Operators_Logical.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab038_Operators_Example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab039_Operators_P8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab048_Loop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab049_For_Loop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab050_For_Looops.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab051_IQ.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab052_IQ2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab053_While.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab054_For_While_IQ.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab056_Q.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab057_Pass_Break.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab058_IQ_Even.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab065_Function_Default_Parameter.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab066_Functions_Return_Multiple_Values.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab087_Type_Conversion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab088_IQ_Triangle_Classifier.p.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab103_SET_P2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab105_IQ.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab106_Dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab107_Dict_P2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab108_Dict_Mul.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab116_IQ_count_vowel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab117_OOps_Class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab119_Class_Dog_P2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab120_Class_Dog_P3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab129_Ecaps_Ft.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab130_Ecap_Example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab131_Ecap_Example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab132_Ecap_Personal.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab133_Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab136.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab145_All_AB.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LabFilter01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LabFilter02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LabFilter03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LabForReverse.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LabForUsedRealLife.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LabMap01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LabMap02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LabMap03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LabPass_Vs_Continue_059.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LabPublic_Private_Protected.executor&quot;: &quot;Run&quot;,
+    &quot;Python.LabWhile_Vs_For.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task_Class-OOPs.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task_FizzBuzz.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task_Grade_Calc.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task_TriaglePrinting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Task_framework_base_counter_TC.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for-Loop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab001_python_hello (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.lab001_python_hello.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task P2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task002.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task003-all escape character.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task003-math.executor&quot;: &quot;Run&quot;,
+    &quot;Python.variables.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/PyATB6xLearing&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PyATB6xLearing\src\ex_18_OOps_Python\05_Inheritance\01_SI" />
+      <recent name="E:\PyATB6xLearing\src\ex_07_loop\for" />
+      <recent name="E:\PyATB6xLearing\src\ex_04_Operators" />
       <recent name="E:\PyATB6xLearing\src" />
       <recent name="E:\PyATB6xLearing\ex_01_Python_Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Lab031_UnaryOperator">
-    <configuration name="Lab029_Task1Multiple Input Operations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Lab145_All_AB">
+    <configuration name="D3_literals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PTA-project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,11 +179,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ex_03_Literals_Variables" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my practice work" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="E:\PyATB6xLearing\src\ex_03_Literals_Variables\Lab029_Task1Multiple Input Operations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my practice work/D3_literals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +192,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Lab030_Task2Quotient and Remainder Calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab087_Type_Conversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PTA-project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -138,11 +201,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ex_03_Literals_Variables" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ex_11_TypeConversion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ex_03_Literals_Variables/Lab030_Task2Quotient and Remainder Calculator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ex_11_TypeConversion/Lab087_Type_Conversion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +214,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Lab031_Arth_Op" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab088_IQ_Triangle_Classifier.p" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PTA-project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,11 +223,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ex_04_Operators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ex_11_TypeConversion" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ex_04_Operators/Lab031_Arth_Op.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ex_11_TypeConversion/Lab088_IQ_Triangle_Classifier.p.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,7 +236,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Lab031_Arth_Operators" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Lab145_All_AB" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PTA-project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -182,33 +245,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ex_04_Operators" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ex_18_OOps_Python/07_Abstraction" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ex_04_Operators/Lab031_Arth_Operators.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Lab031_UnaryOperator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PTA-project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ex_04_Operators" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ex_04_Operators/Lab031_UnaryOperator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ex_18_OOps_Python/07_Abstraction/Lab145_All_AB.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -240,13 +281,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for src.ex_10_Decortors.Lab082_Real_Decor.test_ui_2" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="PTA-project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;src.ex_10_Decortors.Lab082_Real_Decor.test_ui_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Lab031_UnaryOperator" />
-        <item itemvalue="Python.Lab031_Arth_Operators" />
-        <item itemvalue="Python.Lab031_Arth_Op" />
-        <item itemvalue="Python.Lab030_Task2Quotient and Remainder Calculator" />
-        <item itemvalue="Python.Lab029_Task1Multiple Input Operations" />
+        <item itemvalue="Python.Lab145_All_AB" />
+        <item itemvalue="Python.Lab088_IQ_Triangle_Classifier.p" />
+        <item itemvalue="Python.Lab087_Type_Conversion" />
+        <item itemvalue="Python tests.Python tests for src.ex_10_Decortors.Lab082_Real_Decor.test_ui_2" />
+        <item itemvalue="Python.D3_literals" />
       </list>
     </recent_temporary>
   </component>
@@ -289,103 +345,399 @@
       <workItem from="1761330326436" duration="232000" />
       <workItem from="1762021612547" duration="9000" />
     </task>
-    <task id="LOCAL-00001" summary="all set with connecting hello hi">
+    <task id="LOCAL-00026" summary="Added filter() examples with custom functions and lambda; included cases for even numbers, marks &gt; 50, PASS results, and non-empty strings using structured step-by-step format.">
       <option name="closed" value="true" />
-      <created>1759806102823</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
+      <created>1763228641786</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
       <option name="project" value="LOCAL" />
-      <updated>1759806102824</updated>
+      <updated>1763228641786</updated>
     </task>
-    <task id="LOCAL-00002" summary="all set with connecting hello hi">
+    <task id="LOCAL-00027" summary="Added map() examples using custom functions and lambda; implemented square numbers, uppercase conversion, and ms→seconds transformation in structured step-by-step format.">
       <option name="closed" value="true" />
-      <created>1759806199372</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
+      <created>1763228663755</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
       <option name="project" value="LOCAL" />
-      <updated>1759806199372</updated>
+      <updated>1763228663755</updated>
     </task>
-    <task id="LOCAL-00003" summary="all set with connecting hello hi">
+    <task id="LOCAL-00028" summary="function calling">
       <option name="closed" value="true" />
-      <created>1759806220078</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
+      <created>1763401342758</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
       <option name="project" value="LOCAL" />
-      <updated>1759806220078</updated>
+      <updated>1763401342758</updated>
     </task>
-    <task id="LOCAL-00004" summary="cleanup">
+    <task id="LOCAL-00029" summary="Function with Parameters">
       <option name="closed" value="true" />
-      <created>1759812236512</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
+      <created>1763401386048</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
       <option name="project" value="LOCAL" />
-      <updated>1759812236512</updated>
+      <updated>1763401386048</updated>
     </task>
-    <task id="LOCAL-00005" summary="added files">
+    <task id="LOCAL-00030" summary="add VWOLoginPage example with hardcoded credentials and login check">
       <option name="closed" value="true" />
-      <created>1760380016589</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
+      <created>1763490000804</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
-      <updated>1760380016589</updated>
+      <updated>1763490000804</updated>
     </task>
-    <task id="LOCAL-00006" summary="Merge remote-tracking branch 'origin/main'">
+    <task id="LOCAL-00031" summary="Create Objects + Call Methods">
       <option name="closed" value="true" />
-      <created>1760380325445</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
+      <created>1763490051506</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
       <option name="project" value="LOCAL" />
-      <updated>1760380325445</updated>
+      <updated>1763490051506</updated>
     </task>
-    <task id="LOCAL-00007" summary="comments  &amp; literals">
+    <task id="LOCAL-00032" summary="Implemented Car class to demonstrate encapsulation.&#10;Added public and private variables with a method accessing private attribute internally.">
       <option name="closed" value="true" />
-      <created>1760552574773</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
+      <created>1763490417415</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
       <option name="project" value="LOCAL" />
-      <updated>1760552574773</updated>
+      <updated>1763490417415</updated>
     </task>
-    <task id="LOCAL-00008" summary="comments  &amp; literals">
+    <task id="LOCAL-00033" summary="Added Bank class showcasing encapsulation with private account number.&#10;Implemented deposit, balance check, and secure account number display based on authentication.">
       <option name="closed" value="true" />
-      <created>1760552590046</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
+      <created>1763490456452</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
       <option name="project" value="LOCAL" />
-      <updated>1760552590046</updated>
+      <updated>1763490456452</updated>
     </task>
-    <task id="LOCAL-00009" summary="Merge remote-tracking branch 'origin/main'">
+    <task id="LOCAL-00034" summary="Created TestExample class demonstrating public, protected, and private members.&#10;Added private methods invoked internally via work() and included structured show() output.">
       <option name="closed" value="true" />
-      <created>1760552622964</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
+      <created>1763490508550</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
       <option name="project" value="LOCAL" />
-      <updated>1760552622964</updated>
+      <updated>1763490508550</updated>
     </task>
-    <task id="LOCAL-00010" summary="shorthand operators">
+    <task id="LOCAL-00035" summary="Access Levels:public, protected, and private members.">
       <option name="closed" value="true" />
-      <created>1761133236579</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
+      <created>1763490599746</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
-      <updated>1761133236579</updated>
+      <updated>1763490599746</updated>
     </task>
-    <task id="LOCAL-00011" summary="shorthand operators">
+    <task id="LOCAL-00036" summary="Added Single Inheritance example with BaseTest and LoginTest classes demonstrating parent method access, private variable behavior, and test execution flow.&quot;">
       <option name="closed" value="true" />
-      <created>1761133246204</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
+      <created>1763490791954</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
       <option name="project" value="LOCAL" />
-      <updated>1761133246204</updated>
+      <updated>1763490791954</updated>
     </task>
-    <task id="LOCAL-00012" summary="sum of user_input">
+    <task id="LOCAL-00037" summary="Added function with default parameter and demonstrated multiple function calls using both custom and default values.">
       <option name="closed" value="true" />
-      <created>1762257055420</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
+      <created>1763575149485</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
       <option name="project" value="LOCAL" />
-      <updated>1762257055420</updated>
+      <updated>1763575149485</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00038" summary="Implemented math_operations(a, b) to return sum, difference, and multiplication">
+      <option name="closed" value="true" />
+      <created>1763575380560</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1763575380560</updated>
+    </task>
+    <task id="LOCAL-00039" summary="added hybrid test class using multiple inheritance">
+      <option name="closed" value="true" />
+      <created>1763663416052</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1763663416052</updated>
+    </task>
+    <task id="LOCAL-00040" summary="added example demonstrating MRO in multiple inheritance&#10;# - Created Father1 and Father2 with same method name">
+      <option name="closed" value="true" />
+      <created>1763663485074</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1763663485074</updated>
+    </task>
+    <task id="LOCAL-00041" summary="added multi-level inheritance example (TestSuite → BaseTest → UITest)">
+      <option name="closed" value="true" />
+      <created>1763663695269</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1763663695269</updated>
+    </task>
+    <task id="LOCAL-00042" summary="added example demonstrating MRO in multiple inheritanc">
+      <option name="closed" value="true" />
+      <created>1763663743480</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1763663743480</updated>
+    </task>
+    <task id="LOCAL-00043" summary="added multi-level inheritance example">
+      <option name="closed" value="true" />
+      <created>1763664121492</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1763664121492</updated>
+    </task>
+    <task id="LOCAL-00044" summary="added hybrid inheritance example using Base → A/B → C">
+      <option name="closed" value="true" />
+      <created>1763664203571</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1763664203571</updated>
+    </task>
+    <task id="LOCAL-00045" summary="added single inheritance example with constructor reuse &#10;# - BaseTest defines reusable browser setup&#10;# - LoginTest/SignupTest implement specific test flows">
+      <option name="closed" value="true" />
+      <created>1763664323532</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1763664323532</updated>
+    </task>
+    <task id="LOCAL-00046" summary="added multi-level inheritance with method overriding for test framework">
+      <option name="closed" value="true" />
+      <created>1763664590803</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1763664590803</updated>
+    </task>
+    <task id="LOCAL-00047" summary="added method overriding example using BaseTest and LoginTest classes">
+      <option name="closed" value="true" />
+      <created>1763664609978</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1763664609978</updated>
+    </task>
+    <task id="LOCAL-00048" summary="added MathClass demonstrating Python's method overriding behavior">
+      <option name="closed" value="true" />
+      <created>1763835908848</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1763835908848</updated>
+    </task>
+    <task id="LOCAL-00049" summary="added Person class to demonstrate method overriding &amp;&#10;default parameters as Python's alternative to overloading">
+      <option name="closed" value="true" />
+      <created>1763836170626</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1763836170626</updated>
+    </task>
+    <task id="LOCAL-00050" summary="implemented MathClass demonstrating Python-style method  overloading using default parameters">
+      <option name="closed" value="true" />
+      <created>1763836260976</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1763836260977</updated>
+    </task>
+    <task id="LOCAL-00051" summary="added Browser class demonstrating Python's method overriding behavior and optional parameter-based overloading">
+      <option name="closed" value="true" />
+      <created>1763838704139</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1763838704139</updated>
+    </task>
+    <task id="LOCAL-00052" summary="added multi-level inheritance with method overriding for test framework&#10;BaseTest inherits from TestSuite">
+      <option name="closed" value="true" />
+      <created>1763839633797</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1763839633797</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Add full test execution framework with counter, test classes, and execution summary">
+      <option name="closed" value="true" />
+      <created>1764008894678</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1764008894678</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Welcome to Python">
+      <option name="closed" value="true" />
+      <created>1764009044196</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1764009044196</updated>
+    </task>
+    <task id="LOCAL-00055" summary="variables in Python">
+      <option name="closed" value="true" />
+      <created>1764095386585</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1764095386586</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Literalb in Python">
+      <option name="closed" value="true" />
+      <created>1764181878368</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1764181878368</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Literal=hardcoded_values">
+      <option name="closed" value="true" />
+      <created>1764182325867</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1764182325867</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Added safety decorator to wrap scooter driving functions with pre- and post-execution security steps. Improved decorator logic by returning wrapper function correctly.">
+      <option name="closed" value="true" />
+      <created>1764265793788</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1764265793788</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Added layered decorators to log test execution and calculate execution time for UI test functions.">
+      <option name="closed" value="true" />
+      <created>1764354129352</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1764354129352</updated>
+    </task>
+    <task id="LOCAL-00060" summary="Implemented stacked decorators example to demonstrate double wrapping behavior in Python.">
+      <option name="closed" value="true" />
+      <created>1764354219758</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1764354219758</updated>
+    </task>
+    <task id="LOCAL-00061" summary="Implemented stacked decorators example to demonstrate double wrapping behavior in Python.">
+      <option name="closed" value="true" />
+      <created>1764354365005</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1764354365005</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Added time module example demonstrating timestamps, sleep delays, and local time extraction.">
+      <option name="closed" value="true" />
+      <created>1764439739030</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1764439739030</updated>
+    </task>
+    <task id="LOCAL-00063" summary="basic Python type conversions with explanation and usage.">
+      <option name="closed" value="true" />
+      <created>1764439862344</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1764439862344</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Add triangle classifier program:&#10;- Accepts three side inputs&#10;- Validates triangle inequality&#10;- Classifies as equilateral, isosceles, or scalene">
+      <option name="closed" value="true" />
+      <created>1764440077944</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1764440077944</updated>
+    </task>
+    <task id="LOCAL-00065" summary="add abstraction example using Python ABC">
+      <option name="closed" value="true" />
+      <created>1764440405970</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1764440405970</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Implemented abstraction using ABC and abstractmethod with Father → Amit example">
+      <option name="closed" value="true" />
+      <created>1764700054860</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1764700054861</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Implemented abstraction using ABC and abstractmethod with Father → Amit example">
+      <option name="closed" value="true" />
+      <created>1764700826342</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1764700826342</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Implemented BrowserManager abstraction with ChromeBrowser &#10; using ABC and abstractmethod for clean framework structure.">
+      <option name="closed" value="true" />
+      <created>1764700835666</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1764700835666</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Implemented BrowserManager abstraction with ChromeBrowser&#10;using ABC and abstractmethod for clean framework structure.">
+      <option name="closed" value="true" />
+      <created>1764701004625</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1764701004625</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Implemented BrowserManager abstraction with ChromeBrowser&#10;using ABC and abstractmethod for clean framework structure.">
+      <option name="closed" value="true" />
+      <created>1764701020601</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1764701020601</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Added abstraction-based test framework structure with&#10;ExcelReader → Browser → TC1 multi-level implementation.">
+      <option name="closed" value="true" />
+      <created>1764701105535</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1764701105535</updated>
+    </task>
+    <task id="LOCAL-00072" summary="feat: added TestCounter class with class-level counter to track object creation">
+      <option name="closed" value="true" />
+      <created>1764872804309</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1764872804309</updated>
+    </task>
+    <task id="LOCAL-00073" summary="TestCounter – Object Creation Counter Example">
+      <option name="closed" value="true" />
+      <created>1764872994403</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1764872994403</updated>
+    </task>
+    <task id="LOCAL-00074" summary="TestCounter – Object Creation Counter Example">
+      <option name="closed" value="true" />
+      <created>1764873013039</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1764873013039</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,20 +755,32 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add main.py and README" />
-    <MESSAGE value="all set with connecting hello hi" />
-    <MESSAGE value="Update .gitignore.py file" />
-    <MESSAGE value="cleanup" />
-    <MESSAGE value="Added bilingual explanations for Python basics and variables" />
-    <MESSAGE value="added files" />
-    <MESSAGE value="comments  &amp; literals" />
-    <MESSAGE value="Merge branch 'main' of https://github.com/simran786-QA/PyATB6xLearning&#10;# Please enter a commit message to explain why this merge is necessary,&#10;# especially if it merges an updated upstream into a topic branch.&#10;#&#10;# Lines starting with '#' will be ignored, and an empty message aborts&#10;# the commit." />
-    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
-    <MESSAGE value="print statments" />
-    <MESSAGE value="shorthand operators" />
-    <MESSAGE value="operators" />
-    <MESSAGE value="sum of user_input" />
-    <option name="LAST_COMMIT_MESSAGE" value="sum of user_input" />
+    <MESSAGE value="added multi-level inheritance with method overriding for test framework" />
+    <MESSAGE value="added method overriding example using BaseTest and LoginTest classes" />
+    <MESSAGE value="added MathClass demonstrating Python's method overriding behavior" />
+    <MESSAGE value="added Person class to demonstrate method overriding &amp;&#10;default parameters as Python's alternative to overloading" />
+    <MESSAGE value="implemented MathClass demonstrating Python-style method  overloading using default parameters" />
+    <MESSAGE value="added Browser class demonstrating Python's method overriding behavior and optional parameter-based overloading" />
+    <MESSAGE value="added multi-level inheritance with method overriding for test framework&#10;BaseTest inherits from TestSuite" />
+    <MESSAGE value="Add full test execution framework with counter, test classes, and execution summary" />
+    <MESSAGE value="Welcome to Python" />
+    <MESSAGE value="variables in Python" />
+    <MESSAGE value="Literalb in Python" />
+    <MESSAGE value="Literal=hardcoded_values" />
+    <MESSAGE value="Added safety decorator to wrap scooter driving functions with pre- and post-execution security steps. Improved decorator logic by returning wrapper function correctly." />
+    <MESSAGE value="Added layered decorators to log test execution and calculate execution time for UI test functions." />
+    <MESSAGE value="Implemented stacked decorators example to demonstrate double wrapping behavior in Python." />
+    <MESSAGE value="Added time module example demonstrating timestamps, sleep delays, and local time extraction." />
+    <MESSAGE value="basic Python type conversions with explanation and usage." />
+    <MESSAGE value="Add triangle classifier program:&#10;- Accepts three side inputs&#10;- Validates triangle inequality&#10;- Classifies as equilateral, isosceles, or scalene" />
+    <MESSAGE value="add abstraction example using Python ABC" />
+    <MESSAGE value="Implemented abstraction using ABC and abstractmethod with Father → Amit example" />
+    <MESSAGE value="Implemented BrowserManager abstraction with ChromeBrowser &#10; using ABC and abstractmethod for clean framework structure." />
+    <MESSAGE value="Implemented BrowserManager abstraction with ChromeBrowser&#10;using ABC and abstractmethod for clean framework structure." />
+    <MESSAGE value="Added abstraction-based test framework structure with&#10;ExcelReader → Browser → TC1 multi-level implementation." />
+    <MESSAGE value="feat: added TestCounter class with class-level counter to track object creation" />
+    <MESSAGE value="TestCounter – Object Creation Counter Example" />
+    <option name="LAST_COMMIT_MESSAGE" value="TestCounter – Object Creation Counter Example" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XDebuggerManager">
