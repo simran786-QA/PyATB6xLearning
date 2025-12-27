@@ -1,6 +1,11 @@
-# Basic Python print program
+# python basics
+name = "Simran"
+experience_year = 2
+role = "Quality assurance"
+print("Name :  ", name)
+print("Experience_year :", experience_year)
+print("Role : ", role)
 
-print("Hello, World!")
-print("Welcome to Python!")
-print(10 + 20)
-print("Your age is:", 25)
+# taking user input
+user_city = input("enter your city: ")
+print("you live at " ,user_city)
