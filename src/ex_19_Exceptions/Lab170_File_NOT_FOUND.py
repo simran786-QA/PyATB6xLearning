@@ -50,8 +50,6 @@ except FileNotFoundError as fnf:
 # - The except block catches the exception and prints the error.
 # - The commented classes show a simple inheritance example.
 # -------------------------------------------------------------
-
-
 # -------------------------------------------------------------
 # Summary:
 # 1. File operations can raise FileNotFoundError.
