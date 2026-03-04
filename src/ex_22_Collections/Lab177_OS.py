@@ -24,10 +24,10 @@ print(os.getcwd())
 # -------------------------------------------------------------
 # os.path.join() safely combines folder path and file name.
 
-full_path = os.path.join(os.getcwd(), "pramod.txt")
+full_path = os.path.join(os.getcwd(), "Simran.txt")
 
 # Example of hardcoded absolute path (commented).
-# full_path = os.path.join("/Users/promode/PycharmProjects/PyATB6xLearning/src/ex_22_Collections","pramod.txt")
+# full_path = os.path.join("/Users/Simran/PycharmProjects/PyATB6xLearning/src/ex_22_Collections","pramod.txt")
 
 print(full_path)
 
@@ -45,7 +45,7 @@ print(file.read())
 # Hindi Explanation:
 # - os.getcwd() current folder ka path deta hai.
 # - os.path.join() file path ko safe tarike se combine karta hai.
-# - full_path me pramod.txt ka complete path store hota hai.
+# - full_path me Simran.txt ka complete path store hota hai.
 # - open(full_path, 'r') file ko read mode me open karta hai.
 # - file.read() pura content print karta hai.
 #
@@ -61,7 +61,8 @@ print(file.read())
 # -------------------------------------------------------------
 # Summary:
 # 1. os.path.join() avoids OS-specific path issues.
-# 2. Absolute paths improve reliability.
+# 2.
+ 
 # 3. File is opened in read mode to fetch content.
 # 4. Useful for automation scripts and file processing.
 # -------------------------------------------------------------
