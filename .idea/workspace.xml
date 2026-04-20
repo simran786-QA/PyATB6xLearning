@@ -4,14 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad36151b-077b-475b-a639-347bac9c6d48" name="Changes" comment="Added MathOperation example demonstrating instance vs static methods with full explanation and structured format.">
-      <change afterPath="$PROJECT_DIR$/src/ex_18_OOps_Python/08_Static/Lab154_REAL_EXAMPLE.py" afterDir="false" />
+    <list default="true" id="ad36151b-077b-475b-a639-347bac9c6d48" name="Changes" comment="Merge remote-tracking branch 'origin/main'">
+      <change beforePath="$PROJECT_DIR$/.idea/PTA-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PTA-project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -120,6 +127,7 @@
     &quot;Python.Lab133_Inheritance.executor&quot;: &quot;Run&quot;,
     &quot;Python.Lab136.executor&quot;: &quot;Run&quot;,
     &quot;Python.Lab145_All_AB.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Lab182_Pandas.executor&quot;: &quot;Run&quot;,
     &quot;Python.LabFilter01.executor&quot;: &quot;Run&quot;,
     &quot;Python.LabFilter02.executor&quot;: &quot;Run&quot;,
     &quot;Python.LabFilter03.executor&quot;: &quot;Run&quot;,
@@ -156,6 +164,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -169,29 +178,7 @@
       <recent name="E:\PyATB6xLearing\ex_01_Python_Basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Lab145_All_AB">
-    <configuration name="D3_literals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PTA-project" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my practice work" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my practice work/D3_literals.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Lab182_Pandas">
     <configuration name="Lab087_Type_Conversion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PTA-project" />
       <option name="ENV_FILES" value="" />
@@ -258,6 +245,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Lab182_Pandas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PTA-project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/ex_23_File_IO" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/ex_23_File_IO/Lab182_Pandas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="lab002" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PTA-project" />
       <option name="ENV_FILES" value="" />
@@ -298,11 +307,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Lab182_Pandas" />
         <item itemvalue="Python.Lab145_All_AB" />
         <item itemvalue="Python.Lab088_IQ_Triangle_Classifier.p" />
         <item itemvalue="Python.Lab087_Type_Conversion" />
         <item itemvalue="Python tests.Python tests for src.ex_10_Decortors.Lab082_Real_Decor.test_ui_2" />
-        <item itemvalue="Python.D3_literals" />
       </list>
     </recent_temporary>
   </component>
@@ -344,62 +353,6 @@
       <workItem from="1761242905733" duration="1864000" />
       <workItem from="1761330326436" duration="232000" />
       <workItem from="1762021612547" duration="9000" />
-    </task>
-    <task id="LOCAL-00026" summary="Added filter() examples with custom functions and lambda; included cases for even numbers, marks &gt; 50, PASS results, and non-empty strings using structured step-by-step format.">
-      <option name="closed" value="true" />
-      <created>1763228641786</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1763228641786</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Added map() examples using custom functions and lambda; implemented square numbers, uppercase conversion, and ms→seconds transformation in structured step-by-step format.">
-      <option name="closed" value="true" />
-      <created>1763228663755</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1763228663755</updated>
-    </task>
-    <task id="LOCAL-00028" summary="function calling">
-      <option name="closed" value="true" />
-      <created>1763401342758</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1763401342758</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Function with Parameters">
-      <option name="closed" value="true" />
-      <created>1763401386048</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1763401386048</updated>
-    </task>
-    <task id="LOCAL-00030" summary="add VWOLoginPage example with hardcoded credentials and login check">
-      <option name="closed" value="true" />
-      <created>1763490000804</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1763490000804</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Create Objects + Call Methods">
-      <option name="closed" value="true" />
-      <created>1763490051506</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1763490051506</updated>
-    </task>
-    <task id="LOCAL-00032" summary="Implemented Car class to demonstrate encapsulation.&#10;Added public and private variables with a method accessing private attribute internally.">
-      <option name="closed" value="true" />
-      <created>1763490417415</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1763490417415</updated>
     </task>
     <task id="LOCAL-00033" summary="Added Bank class showcasing encapsulation with private account number.&#10;Implemented deposit, balance check, and secure account number display based on authentication.">
       <option name="closed" value="true" />
@@ -737,7 +690,63 @@
       <option name="project" value="LOCAL" />
       <updated>1764873013039</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="File Handling – File Modes and Context Manager">
+      <option name="closed" value="true" />
+      <created>1774635767335</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1774635767335</updated>
+    </task>
+    <task id="LOCAL-00076" summary="open('TestData.txt', 'a') → file ko append mode me open karta hai">
+      <option name="closed" value="true" />
+      <created>1774636024961</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1774636024961</updated>
+    </task>
+    <task id="LOCAL-00077" summary="'a' mode adds data at the end of the file (creates file if not exists)">
+      <option name="closed" value="true" />
+      <created>1774981611884</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1774981611888</updated>
+    </task>
+    <task id="LOCAL-00078" summary="'a' mode adds data at the end of the file (creates file if not exists)">
+      <option name="closed" value="true" />
+      <created>1774981624049</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1774981624049</updated>
+    </task>
+    <task id="LOCAL-00079" summary="q">
+      <option name="closed" value="true" />
+      <created>1775068282173</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1775068282173</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Reading CSV using csv.reader">
+      <option name="closed" value="true" />
+      <created>1776191744347</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1776191744347</updated>
+    </task>
+    <task id="LOCAL-00081" summary="Merge remote-tracking branch 'origin/main'">
+      <option name="closed" value="true" />
+      <created>1776277689571</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1776277689572</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -755,14 +764,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added multi-level inheritance with method overriding for test framework" />
-    <MESSAGE value="added method overriding example using BaseTest and LoginTest classes" />
-    <MESSAGE value="added MathClass demonstrating Python's method overriding behavior" />
-    <MESSAGE value="added Person class to demonstrate method overriding &amp;&#10;default parameters as Python's alternative to overloading" />
-    <MESSAGE value="implemented MathClass demonstrating Python-style method  overloading using default parameters" />
-    <MESSAGE value="added Browser class demonstrating Python's method overriding behavior and optional parameter-based overloading" />
-    <MESSAGE value="added multi-level inheritance with method overriding for test framework&#10;BaseTest inherits from TestSuite" />
-    <MESSAGE value="Add full test execution framework with counter, test classes, and execution summary" />
     <MESSAGE value="Welcome to Python" />
     <MESSAGE value="variables in Python" />
     <MESSAGE value="Literalb in Python" />
@@ -780,7 +781,15 @@
     <MESSAGE value="Added abstraction-based test framework structure with&#10;ExcelReader → Browser → TC1 multi-level implementation." />
     <MESSAGE value="feat: added TestCounter class with class-level counter to track object creation" />
     <MESSAGE value="TestCounter – Object Creation Counter Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="TestCounter – Object Creation Counter Example" />
+    <MESSAGE value="Handle exception if file not found" />
+    <MESSAGE value="File Handling – File Modes and Context Manager" />
+    <MESSAGE value="open('TestData.txt', 'a') → file ko append mode me open karta hai" />
+    <MESSAGE value="'a' mode adds data at the end of the file (creates file if not exists)" />
+    <MESSAGE value="q" />
+    <MESSAGE value="Reading CSV using csv.reader" />
+    <MESSAGE value="CSV Handling using Pandas – Read and Display Data" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/main'" />
     <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
   <component name="XDebuggerManager">
