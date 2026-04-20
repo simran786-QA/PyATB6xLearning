@@ -10,11 +10,17 @@ import pandas as pd
 # -------------------------------------------------------------
 # read_csv() loads the CSV into a DataFrame
 
-df = pd.read_csv("TD.csv")
+#df = pd.read_csv("TD.csv")
 
 # -------------------------------------------------------------
 # Step 2: Print the DataFrame
 # -------------------------------------------------------------
 # Displays tabular data (rows & columns)
 
-print(df)
+#print(df)
+from tabulate import tabulate
+import pandas as pd
+
+df = pd.read_csv("TD.csv")
+
+print(tabulate(df, headers='keys', tablefmt='grid'))
