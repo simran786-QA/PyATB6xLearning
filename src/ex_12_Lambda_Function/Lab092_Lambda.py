@@ -51,3 +51,4 @@ print(mul_l(3, 4))
 # 3. lambda creates anonymous one-line functions.
 # 4. Both normal and lambda functions can achieve the same result.
 # -------------------------------------------------------------
+```
